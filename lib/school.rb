@@ -23,4 +23,8 @@ class School
     @grade=grade
   end 
   
+  def grade
+    @grade
+  end 
+  
 end 
