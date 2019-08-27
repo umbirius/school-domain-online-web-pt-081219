@@ -2,9 +2,12 @@
 
 class School 
   
+  attr_accessor :roster 
+   attr_reader :school
+  
   ROSTER = {}
   
-  attr_reader :school
+ 
   
   def initialize (school)
     @school = school 
@@ -14,6 +17,7 @@ class School
   def add_student (student, grade)
     ROSTER[grade] << "#{student}"
   end 
+  
   
   
 end 
