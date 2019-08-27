@@ -2,10 +2,10 @@
 
 class School 
   
-  attr_accessor :roster 
-   attr_reader :school
+  attr_reader :school, :roster
   
-  ROSTER = {}
+  roster = {}
+    
   
  
   
