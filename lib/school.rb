@@ -15,7 +15,7 @@ class School
   end 
   
   def add_student (student, grade)
-    ROSTER[grade] << "#{student}"
+    roster[grade] << "#{student}"
   end 
   
   
