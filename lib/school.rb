@@ -1,7 +1,6 @@
 # code here!
 
 class School 
-  attr_accessor :grade
   attr_reader :school, :roster
   
   
